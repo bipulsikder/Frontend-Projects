@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Montserrat, sans-serif;
+  color: #fff;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+#cursor{
+  height: 25px;
+  width: 25px;
+  background-color: #95C11e;
+  border-radius: 50%;
+  position: fixed;
+  z-index: 99;
+}
+#cursor-blur{
+  height: 300px;
+  width: 300px;
+  background-color: #95C11e;
+  border-radius: 50%;
+  position: fixed;
+  
+}
+
+#nav{
+  display: flex;
+  padding: 10px 110px;
+  gap: 35px;
+  width: 100%;
+  height: 130px;
+  justify-content: flex-start;
+  align-items: center;
+  /* background-color: rgb(40, 46, 51); */
+  position: fixed;
+  z-index: 99;
+  
+}
+#nav img{
+  height: 70px;
+}
+#nav span{
+  text-transform: uppercase;
+  font-weight: 300;
+  font-size:14.4px;
+  font-family: Montserrat, sans-serif;
+}
+.nav-button{
+  margin-left: 75px;
+}
+.nav-button button{
+  background-color: black;
+  border: solid;
+  border-width: 3px;
+  padding: 14.4px 43px;
+  border-color:  #95c11e;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 14.4px;
+  font-weight: 100;
+  transition: 0.2s;
+}
+.nav-button button:hover{
+  background-color: #95c11e;
+  
+}
+video{
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  object-fit: cover;
+  z-index: -1;
+}
+#main{
+position: relative;
+background-color: rgba(0, 0, 0, 0.35);
+}
+#page1{
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+#page1 h1{
+  font-size: 6rem;
+  font-weight: 900;
+  position: relative;
+}
+#page1 h1::before{
+  content: "EAT. DRINK. PLAY.";
+  position: absolute;
+  color: black;
+  top: -6px;
+  left: -6px;
+  -webkit-text-stroke:2px #95C11E ;
+  z-index: -1;
+  
+}
+#page1 h2{
+  font-size: 1.7rem;
+  font-weight: 800;
+  margin-top:10px ;
+  margin-bottom: 20px;
+ 
+}
+#page1 p{
+  max-width: 650px;
+  font-size: 18px;
+  width: 50%;
+  font-weight: 100;
+
+}
+#page2{
+  height: 100vh;
+  width: 100%;
+}
