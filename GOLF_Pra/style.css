@@ -1,4 +1,4 @@
-/* General Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -429,10 +429,6 @@ video {
 
 
 
-
-
-
-/* Keyframes for Scrolling Animation */
 @keyframes scroll {
   from {
     transform: translateX(0);
